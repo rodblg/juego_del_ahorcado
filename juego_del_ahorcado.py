@@ -41,17 +41,8 @@ def pal(palabra):
             if palabra[j] == var:
                 p[j] = var
                 a = a + 1
-            
         print(p)
-            
-
-        
-        
     
-
-
-
-
 def juego():
     #Accedemos a nuestra base de datos de palabras
     with open("./archivos/data.txt", "r", encoding='utf-8') as f:
@@ -62,10 +53,6 @@ def juego():
         clear()
         print('Adivina la palabra\n')
         pal(palabra.upper())
-
-
-
-
 
 if __name__ == '__main__': 
     run()
